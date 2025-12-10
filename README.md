@@ -4,7 +4,7 @@ Neovim plugin for switching between files with similar names
 
 ## Primary use
 
-- switch between head and source files
+- switch between header and source files
 
 # Requirements
 
