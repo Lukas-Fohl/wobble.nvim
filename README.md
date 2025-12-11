@@ -16,7 +16,7 @@ Using lazy.nvim:
 
 ```lua
 {
-    "Lukas-Fohl/wobble",
+    "Lukas-Fohl/wobble.nvim",
     config = function()
         require("wobble").setup({
             source_exts = { "c", "cpp", "cc", "cxx", "m", "mm", "c++" },
