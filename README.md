@@ -4,7 +4,7 @@ Neovim plugin for switching between files with similar names
 
 ## Primary use
 
-- switch between head and source files
+- switch between header and source files
 
 # Requirements
 
@@ -16,7 +16,7 @@ Using lazy.nvim:
 
 ```lua
 {
-    "Lukas-Fohl/wobble",
+    "Lukas-Fohl/wobble.nvim",
     config = function()
         require("wobble").setup({
             source_exts = { "c", "cpp", "cc", "cxx", "m", "mm", "c++" },
